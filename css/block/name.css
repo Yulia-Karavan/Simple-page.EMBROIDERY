@@ -1,0 +1,39 @@
+.name {
+  height: 290px;
+}
+
+.name-content {
+  text-align: center;
+  padding-top: 90px;
+}
+
+.name-heading {
+  color: #1A1A1A;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 48px;
+}
+
+.name-content p {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 388%;
+/* or 388% */
+letter-spacing: 7px;
+color: #757575;
+}
+
+@media(max-width: 769px){
+  .name-heading {
+    font-size: 70px;
+  }
+  .name-content p{
+    font-size: 26px;    
+  }
+} 
+
+
